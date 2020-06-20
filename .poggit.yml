@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/arclegrandroi/pmmp-status
+build-by-default: true
+branches:
+- master
+projects:
+  pmmp-status:
+    path: ""
+...
