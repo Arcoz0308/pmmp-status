@@ -1,0 +1,32 @@
+---
+#general configuration
+# {command} = the command name
+no-perms: "you don't have the permission to use the command {command}"
+
+# {command} = the command name 
+use-in-game: "the command {command} are not available with console"
+
+setstatus:
+  description: "set you a status"
+  succet: "your status are change to {status}"
+  no-status: "you don't have chose a status to change (/setstatus <status>"
+
+mystatus:
+  description: "get your status"
+  status: "your status are {status}"
+  no-status: "you don't have a status"
+  
+getstatus:
+  description: "get the status of a player"
+  player-status: "{player} hav the status {status}"
+  unknow-player: "the player are not fount"
+  no-player: "usage : /getstatus <player>"
+  
+adminsetstatus: 
+  description: "change the status of a player"
+  succet-sender: "you have change the status of {player} to {status}"
+  succet-player: "{sender} hav change your status to {status}"
+  no-status: "no status chose , usage /adminsetstatus <player> <status>"
+  unknow-player: "playet not fount"
+  no-player: "chose a player , usage /adminsetstatus <player> <status>"
+...
