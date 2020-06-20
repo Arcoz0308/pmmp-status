@@ -1,0 +1,14 @@
+---
+
+#don't change this !!!
+config-version: 1.0
+
+#allow admin to change status from a player whit console
+adminsetstatus-console: true
+
+#allow admin to get a status fron a player whit console 
+getstatus-console: true
+
+#send a message to player when a admin change the status
+send-player: true
+...
