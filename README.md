@@ -8,7 +8,7 @@ this plugin add status to your server for more fun
 * [setup](#setup)
 * [commands](#commands)
 * [permissions](#permissions)
-* scorehub-addon : soon
+* [scorehud addon](https://github.com/arclegrandroi/status-ScoreHud-adddon)
 * [developper](#developper)
   * [list of function](#list-of-function)
 
