@@ -2,6 +2,7 @@
 
 
 ## general
+this plugin add status to your server for more fun
 
 ## table of contents
 * [setup](#setup)
