@@ -1,0 +1,25 @@
+name: status
+main: arclegrandroi\status\Status 
+api: 3.0.0
+version: 1.0.0
+
+author: arclegrandroi
+description: "allow player to create a status"
+
+permissions:
+  status.all:
+    description: "get accet off al feture to this plugin"
+    default: op
+    children:
+      myatatus.cmd:
+        description: "get your status"
+        default: true
+      setstatus.cmd:
+        description: "set your status"
+        default: true
+      getstatus.cmd:
+        description: "get the status of a player"
+        default: true
+      adminsetstatus.cmd:
+        description: "set the status of a player"
+        default: op
