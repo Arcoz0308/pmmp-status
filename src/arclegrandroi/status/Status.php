@@ -92,7 +92,7 @@ class Status extends PluginBase {
     }
     
    public function commandMap() {
-      $this->getServer()->getCommandMap()->registerAll("command",
+      $this->getServer()->getCommandMap()->registerAll("status",
        [
         new setstatus($this),  
         new mystatus($this),  
