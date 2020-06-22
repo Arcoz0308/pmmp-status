@@ -32,7 +32,7 @@ class GetStatus extends Command {
     
     public function execute(CommandSender $sender, string $commandLabel, array $args) {
         $commandName = "getstatus";
-        if($sender->hasPermission("getstatus.cmd")) {
+        if($sender->hasPermission("status.getstatus.cmd")) {
             if($this->plugin->config->get("getstatus-console") == true) {
                 if(isset($args[0])) {
                     if($this->plugin->getServer()->getPlayer($args[0])) {
