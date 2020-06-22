@@ -22,19 +22,19 @@ this plugin add status to your server for more fun
 ## commands 
 | command | description | permissions | aliases(soon) |
 | --- | --- | --- | --- |
-| `/mystatus` | get your status | `mystatus.cmd` |
-| `/setstatus` | get your status | `setstatus.cmd` |
-| `/getstatus` | get a status of a player | `getstatus.cmd` |
-| `/adminsetstatus` | set the status of a player | `adminsetstatus.cmd` |
+| `/mystatus` | get your status | `status.mystatus.cmd` |
+| `/setstatus` | get your status | `status.setstatus.cmd` |
+| `/getstatus` | get a status of a player | `status.getstatus.cmd` |
+| `/adminsetstatus` | set the status of a player | `status.adminsetstatus.cmd` |
 
 ## permissions
 | permission | description | default |
 | --- | --- | --- |
 | `status.all` | all feature of the plugin | **op** |
-| `mystatus.cmd` | allow to use `/mystatus` | **true** |
-| `setstatus.cmd` | allow to use `/setstatus` | **true** |
-| `getstatus.cmd` | allow to use `/getstatus` | **true** |
-| `adminsetstatus.cmd` | allow to use `/adminsetstatus` | **op** |
+| `status.mystatus.cmd` | allow to use `/mystatus` | **true** |
+| `status.setstatus.cmd` | allow to use `/setstatus` | **true** |
+| `status.getstatus.cmd` | allow to use `/getstatus` | **true** |
+| `status.adminsetstatus.cmd` | allow to use `/adminsetstatus` | **op** |
 
 ## developper
  you can have accet to status whit `Status::getInstance();`
