@@ -11,15 +11,15 @@ permissions:
     description: "get accet off al feture to this plugin"
     default: op
     children:
-      myatatus.cmd:
+      status.myatatus.cmd:
         description: "get your status"
         default: true
-      setstatus.cmd:
+      status.setstatus.cmd:
         description: "set your status"
         default: true
-      getstatus.cmd:
+      status.getstatus.cmd:
         description: "get the status of a player"
         default: true
-      adminsetstatus.cmd:
+      status.adminsetstatus.cmd:
         description: "set the status of a player"
         default: op
