@@ -31,7 +31,7 @@ class MyStatus extends Command {
     
     public function execute(CommandSender $sender, string $commandLabel, array $args) {
         $commandName = "mystatus";
-        if($sender->hasPermission("mystatus.cmd")) {
+        if($sender->hasPermission("status.mystatus.cmd")) {
             if($sender instanceof Player) {
                 if($this->plugin->getStatus($sender) != NULL) {
                     $msg = $this->plugin->lang->get("mystatus")["status"];
