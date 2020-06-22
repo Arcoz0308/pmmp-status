@@ -13,19 +13,19 @@
 
 namespace arclegrandroi\status\commands;
 
-use pocketmine\command\Command;
+use pocketmine\command\PluginCommand;
 use pocketmine\command\CommandSender;
 use pocketmine\Player;
 
 use arclegrandroi\status\Status;
 
-class AdminSetStatus extends Command {
+class AdminSetStatus extends PluginCommand {
     /** var Status */
      private $plugin;
   
     public function __construct(Status $plugin) {
         $this->plugin = $plugin;
-        parent::__construct("adminsetstatus");
+        parent::__construct("adminsetstatus", $plugin);
             $this->setDescription($this->plugin->lang->get("adminsetstatus")["description"]);
         
     } 
