@@ -31,7 +31,7 @@ class SetStatus extends Command {
     
     public function __construct(Status $plugin) {
         $this->plugin = $plugin;
-        parent::__construct("setstatus");
+        parent::__construct("statusmsetstatus");
             $this->setDescription($this->plugin->lang->get("setstatus")["description"]);
     }
     
