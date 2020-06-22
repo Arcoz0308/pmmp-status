@@ -31,7 +31,7 @@ class AdminSetStatus extends Command {
     } 
     public function execute(CommandSender $sender, string $commandLabel, array $args) {
         $cmdname = "adminsetstatus";
-        if($sender->hasPermission("adminsetstatus.cmd")) {
+        if($sender->hasPermission("status.adminsetstatus.cmd")) {
             if($this->plugin->config->get("adminsetstatus-console") == true) {
                 if(isset($args[0])) {
                         if($this->plugin->getServer()->getPlayer($args[0])) {
