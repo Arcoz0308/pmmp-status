@@ -20,7 +20,7 @@ use pocketmine\Player;
 use arclegrandroi\status\Status;
 
 class AdminSetStatus extends PluginCommand {
-    /** var Status */
+    
      private $plugin;
   
     public function __construct(Status $plugin) {
