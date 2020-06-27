@@ -22,11 +22,8 @@ use arclegrandroi\status\Status;
 
 class SetStatus extends PluginCommand {
     
-    /** var Status */
     private $plugin;
     
-    /** var Config */
-     private $langua;
     
     
     public function __construct(Status $plugin) {
@@ -36,9 +33,8 @@ class SetStatus extends PluginCommand {
     }
     
     public function execute(CommandSender $sender, string $commandLabel, array $args) {
-        $main = Status::getInstance();
         $commanName = "setstatus";
-        if($sender->hasPermission("setstatus.cmd")) {
+        if($sender->hasPermission("status.setstatus.cmd")) {
             if($sender instanceof Player) {
                 if(isset($args[0])) {  
                     $txt = $this->plugin->lang->get("setstatus")["succet"];
