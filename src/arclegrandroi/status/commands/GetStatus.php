@@ -21,7 +21,6 @@ use arclegrandroi\status\Status;
 
 class GetStatus extends PluginCommand {
     
-    /** var Status */
     private $plugin;
      
     public function __construct(Status $plugin) {
