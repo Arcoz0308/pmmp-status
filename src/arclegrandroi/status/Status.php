@@ -25,16 +25,12 @@ use arclegrandroi\status\commands\AdminSetStatus;
 
 class Status extends PluginBase {
     
-    /** var Config */
      public $config;
     
-    /** var Config */
      public $lang;
     
-    /** var Config */ 
      public $datastatus;
-     
-    /** var self */
+   
      private static $instance;
     
     
