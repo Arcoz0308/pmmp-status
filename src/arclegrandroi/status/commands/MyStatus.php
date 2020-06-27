@@ -21,8 +21,8 @@ use arclegrandroi\status\Status;
 
 class MyStatus extends PluginCommand {
   
-    /** var $plugin */
      private $plugin;
+     
     public function __construct(Status $plugin) {
         $this->plugin = $plugin;
         parent::__construct("mystatus", $plugin);
