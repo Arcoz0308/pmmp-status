@@ -84,7 +84,7 @@ class Status extends PluginBase {
     public function delStatus(Player $player) {
         
         $this->datastatus->set($player->getName(), null);
-        return $this->datastatus->saveAll();
+        return $this->datastatus->save();
     }
     
    public function commandMap() {
