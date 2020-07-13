@@ -72,7 +72,7 @@ class Status extends PluginBase {
     public function setStatus(Player $player, string $status) {
         
         $this->datastatus->set($player->getName(),$status);
-        return $this->datastatus->save();
+        $this->datastatus->save();
     }
     //get the status of a player
     public function getStatus(Player $player) {
@@ -84,7 +84,7 @@ class Status extends PluginBase {
     public function delStatus(Player $player) {
         
         $this->datastatus->set($player->getName(), null);
-        return $this->datastatus->save();
+        $this->datastatus->save();
     }
     
    public function commandMap() {
