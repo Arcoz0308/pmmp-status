@@ -1,6 +1,6 @@
 # pmmp-status
 
-[![](https://poggit.pmmp.io/shield.state/Status)](https://poggit.pmmp.io/p/Status)
+[![](https://poggit.pmmp.io/shield.state/Status)](https://poggit.pmmp.io/p/Status) [![](https://poggit.pmmp.io/shield.dl/status)](https://poggit.pmmp.io/p/status)
 
 ## general
 this plugin add status to your server for more fun like discord status
