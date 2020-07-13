@@ -11,7 +11,7 @@ permissions:
     description: "get accet off al feture to this plugin"
     default: op
     children:
-      status.myatatus.cmd:
+      status.mysatatus.cmd:
         description: "get your status"
         default: true
       status.setstatus.cmd:
