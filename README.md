@@ -3,19 +3,19 @@
 [![](https://poggit.pmmp.io/shield.state/Status)](https://poggit.pmmp.io/p/Status) [![](https://poggit.pmmp.io/shield.dl/status)](https://poggit.pmmp.io/p/status)
 
 ## general
-this plugin add status to your server for more fun like discord status
+this plugin adds status to your server for more fun like discord status
 
 ## table of contents
 * [setup](#setup)
 * [commands](#commands)
 * [permissions](#permissions)
 * [scorehud addon](https://github.com/arclegrandroi/status-ScoreHud-adddon)
-* [developper](#developper)
-  * [list of function](#list-of-function)
+* [developer](#developer)
+  * [list of functions](#list-of-functions)
 
 
 ## setup
-1. downloand the plugin
+1. download the plugin
 2. put the plugin in your server
 3. start your server
 4. enjoy
@@ -37,14 +37,14 @@ this plugin add status to your server for more fun like discord status
 | `status.getstatus.cmd` | allow to use `/getstatus` | **true** |
 | `status.adminsetstatus.cmd` | allow to use `/adminsetstatus` | **op** |
 
-## developper
- you can have accet to status whit `Status::getInstance();`
+## developer
+ you can have access to status whit `Status::getInstance();`
 
-* exemple
+* example
 ```php
  Status::getInstance()->getStatus($player);
  ```
- ### list of function
+ ### list of functions
  * `setStatus($player, $status)` set a status to $player
  * `delStatus($player)` remove the status of a player
  * `getStatus($player)` get the status of $player
