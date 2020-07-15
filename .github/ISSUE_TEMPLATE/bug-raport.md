@@ -1,5 +1,8 @@
 ---
-name Bug raport
+name: Bug raport
+about: bug with crash and without
+title: ''
+labels: 'type bugs'
 ---
 
 Please make sure your issue complies with these guidelines:
