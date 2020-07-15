@@ -1,7 +1,7 @@
 ---
 name: suggestions
 title: ''
-amout: idea for feature to the plugin
+about: idea for feature to the plugin
 labels: 'type: idea'
 ---
 
