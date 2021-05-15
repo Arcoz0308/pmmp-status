@@ -1,3 +1,7 @@
+# ⚠️ ARCHIVED ⚠️
+
+this repo is no longer maintained
+
 # pmmp-status
 
 [![](https://poggit.pmmp.io/shield.state/Status)](https://poggit.pmmp.io/p/Status) [![](https://poggit.pmmp.io/shield.dl/status)](https://poggit.pmmp.io/p/status)
